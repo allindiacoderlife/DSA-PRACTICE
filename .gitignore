@@ -1,1 +1,19 @@
-/.class
+# Ignore all .class files
+*.class
+
+# Optional: Ignore compiled JAR files
+*.jar
+
+# Ignore build and output folders (commonly used by IDEs)
+bin/
+build/
+out/
+
+# IDE-specific (optional)
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.classpath
+*.project
