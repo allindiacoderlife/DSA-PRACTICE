@@ -17,3 +17,54 @@ out/
 # Eclipse
 *.classpath
 *.project
+
+# === Compiled files ===
+*.o
+*.obj
+*.so
+*.dll
+*.exe
+*.out
+
+# === Build directories ===
+/build/
+/bin/
+/dist/
+
+# === Backup or temp files ===
+*~
+*.swp
+*.bak
+*.tmp
+*.log
+
+# === CMake ===
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# === Code::Blocks ===
+*.depend
+*.layout
+*.cbp
+
+# === Visual Studio ===
+.vs/
+*.vcxproj*
+*.sln
+*.user
+
+# === CLion ===
+.idea/
+cmake-build-*/
+
+# === Qt Creator ===
+*.pro.user
+*.qmake.stash
+
+# === Mac/Linux ===
+.DS_Store
+
+# === Windows ===
+Thumbs.db
