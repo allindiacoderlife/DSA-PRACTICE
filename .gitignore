@@ -68,3 +68,5 @@ cmake-build-*/
 
 # === Windows ===
 Thumbs.db
+
+/.vscode
